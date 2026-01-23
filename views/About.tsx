@@ -64,7 +64,7 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          <a href="/Harshit-PatroRobotics.pdf" download className="flex items-center gap-2 group text-primary font-bold text-xs tracking-widest uppercase mt-4 hover:opacity-70 transition-opacity">
+          <a href="./Harshit-PatroRobotics.pdf" download className="flex items-center gap-2 group text-primary font-bold text-xs tracking-widest uppercase mt-4 hover:opacity-70 transition-opacity">
             <span>Download_Resume.pdf</span>
             <span className="material-symbols-outlined group-hover:translate-y-1 transition-transform">download</span>
           </a>

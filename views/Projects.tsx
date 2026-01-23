@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
       title: 'Multi-Map Navigation (ROS 2 Humble)',
       desc: 'Autonomous mobile robot navigation system supporting multiple floor maps with real-time switching. Implements custom SLAM with multi-floor building traversal.',
       tags: ['ROS2', 'SLAM', 'Navigation', 'C++'],
-      img: '/images/001.jpg',
+      img: './images/001.jpg',
       stats: ['MAPPING: Real-time', 'ACCURACY: 99%'],
       github: 'https://github.com/Harshitpatro/MultiMapNav_ROS2_Humble'
     },
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       title: 'LiDAR Autonomous Docking (ICP Algorithm)',
       desc: 'Precision docking system using Iterative Closest Point algorithm for autonomous robot-to-dock alignment. Implements robust point cloud registration.',
       tags: ['LiDAR', 'ICP', 'PYTHON', 'PCL'],
-      img: '/images/002.jpg',
+      img: './images/002.jpg',
       stats: ['PRECISION: ±5cm', 'LATENCY: 100ms'],
       github: 'https://github.com/Harshitpatro/Pallet_Docking_ICP.git'
     },
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
       title: 'Custom DWA Local Planner',
       desc: 'From-scratch implementation of Dynamic Window Approach local planner for ROS 2. Custom cost function optimization for efficient path planning.',
       tags: ['ROS2', 'PLANNING', 'C++', 'ALGORITHMS'],
-      img: '/images/003.jpg',
+      img: './images/003.jpg',
       stats: ['CYCLES: 20Hz', 'CPU: 12%'],
       github: 'https://github.com/Harshitpatro/custom_dwa_planner'
     },
@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
       title: 'UAV Strategic Deconfliction System (4D Airspace)',
       desc: 'A 4D (space + time) UAV deconfliction system for shared airspace safety. Implements probabilistic conflict detection and intelligent path planning for automatic collision avoidance.',
       tags: ['UAV', 'DECONFLICTION', 'PATH_PLANNING', 'MONTE_CARLO', 'RRT'],
-      img: '/images/004.jpg',
+      img: './images/004.jpg',
       stats: ['DIMENSION: 4D','SIMULATIONS: 500/run','PLANNERS: A*, RRT, VO'],
       github: 'https://github.com/Harshitpatro/Flytbase_UAV_assignment/tree/main'
     },
@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
   title: 'Nav2 Bot – ROS 2 Autonomous Navigation',
   desc: 'Complete ROS 2 autonomous navigation simulation using Gazebo, AMCL localization, and the Nav2 stack. Features stable map visualization, obstacle avoidance, and goal-based navigation.',
   tags: ['ROS2', 'NAV2', 'AMCL', 'GAZEBO', 'SIMULATION'],
-  img: '/images/005.jpg',
+  img: './images/005.jpg',
   stats: [
     'LOCALIZATION: AMCL',
     'PLANNING: Nav2',
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
   title: 'ArduPilot Precision Landing with AprilTags',
   desc: 'Autonomous precision landing system using AprilTag detection and MAVLink integration for ArduPilot. Handles real-time tag detection, frame conversions, and triggers LAND mode for accurate touchdown.',
   tags: ['ROS2', 'Python', 'ArduPilot', 'AprilTag', 'MAVLink'],
-  img: '/images/006.jpg',
+  img: './images/006.jpg',
   stats: ['ACCURACY: ±10cm', 'UPDATE RATE: 10Hz', 'ALTITUDE RANGE: 2–10m'],
   github: 'https://github.com/Harshitpatro/precisionlanding'
 }
