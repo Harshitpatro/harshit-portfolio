@@ -61,7 +61,7 @@ const Home: React.FC<HomeProps> = ({ setView }) => {
             <span className="relative z-10">View Projects</span>
           </button>
           
-          <a href="/Harshit-PatroRobotics.pdf" download="Harshit-PatroRobotics.pdf" className="group relative px-10 py-4 border border-white/20 text-white font-bold uppercase tracking-[0.15em] overflow-hidden transition-all duration-300 hover:border-primary hover:text-primary">
+          <a href="./Harshit-PatroRobotics.pdf" download="Harshit-PatroRobotics.pdf" className="group relative px-10 py-4 border border-white/20 text-white font-bold uppercase tracking-[0.15em] overflow-hidden transition-all duration-300 hover:border-primary hover:text-primary">
             <div className="absolute top-0 right-0 p-1 border-t-2 border-r-2 border-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="absolute bottom-0 left-0 p-1 border-b-2 border-l-2 border-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <span className="relative z-10 flex items-center gap-2">
